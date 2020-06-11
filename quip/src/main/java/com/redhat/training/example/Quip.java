@@ -1,4 +1,4 @@
-package com.redhat.training.example;
+,package com.redhat.training.example;
 
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
@@ -14,7 +14,7 @@ public class Quip {
 @Produces("text/plain")
 public Response index() throws Exception {
     String host = InetAddress.getLocalHost().getHostName();
-    return Response.ok("Veni, vidi, vici...\n").build();
+    return Response.ok("came, saw, conquered...\n").build();
   }
 
 @GET
